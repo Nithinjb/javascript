@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>name change</title>
+</head>
+<body>
+    <h1 id="result">NAME</h1>
+    <button onclick="change(event)">Nithin</button>
+    <button onclick="change(event)">Naveen</button>
+    <button onclick="change(event)">Naruto</button>
+    <button onclick="change(event)">Sasuke</button>
+    <script>
+        var h1 =document.getElementById("result")
+        function change(event){
+            h1.textContent= event.target.textContent
+        }
+    </script>
+</body>
+</html>
